@@ -52,3 +52,5 @@
                                                 :meetup/duration-hours 2}])
 
 #_(all-meetup-insts (java.time.LocalDate/now) (modulo.api/config :meetups))
+
+(defn all [] (modulo.api/config :meetups))
